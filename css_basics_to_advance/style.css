@@ -1,0 +1,25 @@
+/* #box{
+    background-color: blue;
+}
+.heading{
+    background-color: red;
+}
+input{
+    color: green;
+} */
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+}
+#outer{
+    font-size: 25px;
+
+}
+#inner{
+    text-align: right;
+    font-size: 10px;
+}

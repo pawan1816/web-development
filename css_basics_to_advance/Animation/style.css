@@ -1,0 +1,42 @@
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border:2px solid black;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    animation-name: colorAnimation;
+    animation-duration: 3s;
+    /* animation-timing-function: ease-in; */
+    /* animation-delay: 0s;
+    animation-iteration-count: 5;
+}
+
+@keyframes colorAnimation {
+    from {background-color: aquamarine;}
+    to{background-color: red;}
+}
+
+div:hover{
+
+} */ 
+
+#loader{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: pink;
+    border:10px solid rgb(203, 196, 49);
+    border-top: 10px solid rgb(8, 165, 183);
+    animation:spinAnimate 3s ease-in-out 0s infinite normal;
+}
+
+@keyframes spinAnimate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
